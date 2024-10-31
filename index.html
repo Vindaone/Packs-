@@ -1,82 +1,170 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloads</title>
+    <title>Minecraft PvP Texture Packs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
-        /* General Page Styles */
-        * {
+        body {
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            height: 100%;
-            background-color: black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        /* Layer 2: Dark rounded background */
-        .content-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            max-width: 600px;
-            padding: 40px;
-            background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
-            border-radius: 20px;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
             text-align: center;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            overflow: hidden;
         }
 
-        /* Title Styling - Smaller Size */
-        h1 {
-            color: white;
-            font-size: 1.8em; /* Smaller size */
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .container {
+            padding: 50px;
+            transition: filter 1s ease; /* Slower blur transition */
         }
 
-        /* Layer 1: Download buttons - Smaller Size */
-        .download-button {
-            display: inline-block;
-            width: 100%;
-            max-width: 400px;
-            margin: 15px 0;
-            padding: 10px; /* Smaller padding */
-            font-size: 1em; /* Smaller font size */
-            color: white;
+        h1, h2 {
+            margin: 20px 0;
+            color: #ffffff;
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 5px;
             text-decoration: none;
-            border: 2px solid white;
-            border-radius: 10px;
-            background-color: transparent;
-            transition: all 0.3s ease;
+            transition: background-color 0.3s, color 0.3s;
+            font-weight: 700;
+            font-size: 16px;
+            outline: none; /* Remove focus outline */
         }
 
-        .download-button:hover {
-            background-color: white;
-            color: black;
+        button:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            max-height: 300px; /* Set a maximum height */
+            overflow-y: auto; /* Enable vertical scrolling */
+            border: 1px solid #ffffff; /* Optional: Add a border */
+            border-radius: 5px; /* Optional: Round the corners */
+        }
+
+        .download-section {
+            margin: 10px 0; /* Adjust margin for better spacing */
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none; /* Remove underline */
+        }
+
+        a:hover {
+            color: #ffffff; /* Change color on hover */
         }
     </style>
 </head>
 <body>
-
-    <div class="content-container">
-        <!-- Layer 1: Texts and Buttons -->
-        <h1>Downloads</h1>
-        <a href="https://linkpays.in/oOVJUaEP" class="download-button">Gosaku 16x </a>
-        <a href="#" class="download-button">Empty</a>
-        <a href="#" class="download-button">Empty</a>
+    <div class="container" id="home">
+        <h1>Welcome to Minecraft PvP Texture Packs</h1>
+        <p>Discover the best texture packs to enhance your PvP experience in Minecraft.</p>
+        <button onclick="showPage('packs')">Packs?</button>
     </div>
 
+    <div class="container" id="packs" style="display: none;">
+        <h2>Download Texture Packs</h2>
+        <ul>
+            <li class="download-section">
+                <a href="https://linkpays.in/oOVJUaEP"><button>Gosaku</button></a>
+            </li>
+            <li class="download-section">
+                <a href="https://linkpays.in/oJxT"><button>Hil3</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack3.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack4.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack5.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack6.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack7.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack8.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack9.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack10.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack11.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack12.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack13.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack14.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack15.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack16.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack17.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack18.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack19.zip"><button>Empty</button></a>
+            </li>
+            <li class="download-section">
+                <a href="link-to-pack20.zip"><button>Empty</button></a>
+            </li>
+        </ul>
+        <button onclick="showPage('home')">Back</button>
+    </div>
+
+    <script>
+        function showPage(page) {
+            const home = document.getElementById('home');
+            const packs = document.getElementById('packs');
+
+            // Apply blur effect
+            home.style.filter = 'blur(5px)';
+            packs.style.filter = 'blur(5px)';
+
+            setTimeout(() => {
+                if (page === 'packs') {
+                    home.style.display = 'none';
+                    packs.style.display = 'block';
+                } else {
+                    home.style.display = 'block';
+                    packs.style.display = 'none';
+                }
+                // Remove blur effect
+                home.style.filter = 'none';
+                packs.style.filter = 'none';
+            }, 1000); // Match the duration of the blur transition
+        }
+    </script>
 </body>
 </html>
